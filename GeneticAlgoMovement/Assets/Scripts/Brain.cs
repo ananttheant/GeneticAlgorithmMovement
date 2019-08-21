@@ -21,7 +21,7 @@ public class Brain : MonoBehaviour
     public float distanceTravelled = 0;
     public Vector3 startPosition;
 
-    //It's DNA sequesnce
+    //It's DNA sequence
     public DNA dna;
 
     //Character ref
