@@ -65,7 +65,7 @@ public class Brain : MonoBehaviour
         dna = new DNA(DNALength, 6);
 
         m_Character = GetComponent<ThirdPersonCharacter>();
-
+        startPosition = transform.position;
         timeAlive = 0;
         alive = true;
     }
